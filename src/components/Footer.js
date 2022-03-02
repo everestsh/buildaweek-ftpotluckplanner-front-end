@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React from "react";
 import './../CSS/Footer.css'
 import ttamlogotopJpg from "./../images/ttamlogotop.jpeg";
 
@@ -9,36 +9,36 @@ const Footer = (props) => {
       <div className="footer-border">
         <div className="footer-border-radius-left footer-bg"></div>
         <div className="footer-border-radius-right">
-          <a>
+          <span>
             <img src={ttamlogotopJpg} alt="ttamlogotop" />
-          </a>
+          </span>
           <br />
-          <a href="https://www.takethemameal.com" target="_blank">
+          <span href="https://www.takethemameal.com" target="_blank">
             Coordinate meals for friends and family in need with
             TakeThemAMeal.com
-          </a>
+          </span>
         </div>
       </div>
       <div className="footer-bar">
-        <a>find a meal</a>
+        <span>find a meal</span>
         &nbsp;•&nbsp;
-        <a>plan a meal</a>
+        <span>plan a meal</span>
         &nbsp;•&nbsp;
-        <a>view a sample</a>
+        <span>view a sample</span>
         &nbsp;•&nbsp;
-        <a>group meal ideas</a>
+        <span>group meal ideas</span>
         &nbsp;•&nbsp;
-        <a>(in)frequently asked questions</a>
+        <span>(in)frequently asked questions</span>
         &nbsp;•&nbsp;
-        <a>our story</a>
+        <span>our story</span>
         &nbsp;•&nbsp;
-        <a>contact us</a>
+        <span>contact us</span>
         <br />
         <span>Copyright 2010-2021</span>
         &nbsp;•&nbsp;
-        <a>privacy policy</a>
+        <span>privacy policy</span>
         &nbsp;•&nbsp;
-        <a>terms of use</a>
+        <span>terms of use</span>
       </div>
 
       <div></div>

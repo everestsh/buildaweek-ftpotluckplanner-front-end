@@ -12,6 +12,8 @@ function App() {
       <h1>Front End</h1>
       <Button color="danger">Danger!</Button>
       <Header />
+      <hr/>
+      <hr/>
       <Footer/>
     </div>
   );

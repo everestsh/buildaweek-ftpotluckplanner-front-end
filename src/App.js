@@ -9,12 +9,13 @@ import { Button } from 'reactstrap';
 function App() {
   return (
     <div className="App">
-      <h1>Front End</h1>
-      <Button color="danger">Danger!</Button>
+
       <Header />
       <hr/>
       <hr/>
       <Footer/>
+      <h1>Front End</h1>
+      <Button color="danger">Danger!</Button>
     </div>
   );
 }

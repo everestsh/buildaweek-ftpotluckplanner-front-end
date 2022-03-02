@@ -5,11 +5,18 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+import theme from './theme';
+import { ThemeProvider } from 'styled-components';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
+
 ReactDOM.render(
   <React.StrictMode>
+  <ThemeProvider theme={theme}>
     <Router>
-        <App />
+          <App />
     </Router>
+  </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
